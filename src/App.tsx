@@ -14,20 +14,21 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
+      "I have a chocolate)",
+      "R u serious?",
+      "What about a 100gram something tasty?)",
+      "PLEASE!!!",
+      "Or some big buket of flowers?)",
+      "It is fiasko bro",
       "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
+      "I`m dead",
+      "Ok, you are talking to my ghost",
+      "Ny kitsunn'",
+      "Make our love Great Again?",
+      "Dios la perdone, ella no sabe lo que hace",
+      "Ja peirdole",
+      "You broke my heart :(",
+      "Hear your heart, u r so crazy and beautiful"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -38,7 +39,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <div className="my-4 text-4xl font-bold">Suuuuuuudaa!!! I love you kitsichka! To the moon and back! </div>
         </>
       ) : (
         <>
